@@ -1,0 +1,33 @@
+output_dir: '.'
+navbar:
+  title: "<img id=\"logo\" style=\"width: 100px;\" src=\"http://www.luxottica.com/sites/all/themes/luxottica/logo.png\" />"
+  subtitle: "logo.png"
+  type: inverse
+  left:
+    - text: "IT Home"
+      href: index.html
+    - text: 
+      href: #
+    - text: 
+      href: #
+    - text: 
+      href: #
+    - text: 
+      href: #
+  right:
+    - icon: fa-github fa-lg
+      href: #
+output:
+  html_document:
+    self_contained: false
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    lib_dir: libs
+    css: styles.css
+    include:
+      in_header: head.html
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+
